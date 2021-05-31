@@ -8,6 +8,8 @@ public class Main {
     public static void main(String[] args) {
 
 
+
+
         //Task18  Создайте переменную для массива из 10 элементов.заполните его произвольными значениями,
         // целочисленного типа и выведите последний элемент массива на экран.
 
@@ -17,10 +19,10 @@ public class Main {
         for (int y = 0; y < variable.length; y++) {
             int lastElement=variable[y];
             if (y==variable.length-1){
-                System.out.println(lastElement);
+
             }
         }
-
+        //ArrayUtils.printArray(variable);
 
 
 
@@ -34,11 +36,10 @@ public class Main {
 
             if (arrayInt[e] % 2 != 0) {
                 evenPosition = arrayInt[e];
-                 // System.out.print(evenPosition);
             }
 
         }
-
+        //ArrayUtils.printArray(arrayInt);
 
         //Task20 переменную для массива из 10 элементов.Заполните его произвольными знач.int.
         // Найдите максимальный элемент и выведите  его индекс.
